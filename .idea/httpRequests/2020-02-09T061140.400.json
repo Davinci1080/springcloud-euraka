@@ -1,0 +1,8 @@
+{
+  "timestamp": 1581243099914,
+  "status": 400,
+  "error": "Bad Request",
+  "exception": "org.springframework.http.converter.HttpMessageNotReadableException",
+  "message": "Bad Request",
+  "path": "/dept/add"
+}
