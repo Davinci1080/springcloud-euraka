@@ -7,9 +7,10 @@ import org.springframework.web.client.RestTemplate;
 
 @Configuration
 public class ConfigBean {
-	
+
+    //测试conparewithbirth
 	@Bean
-    @LoadBalanced//负载均衡
+    @LoadBalanced//启用ribbon的负载均衡
 	public RestTemplate getRestTemplate() {
 		return new RestTemplate();
 	}
